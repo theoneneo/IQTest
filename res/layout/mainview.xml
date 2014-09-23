@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+    	android:id="@+id/title_area"
+		android:layout_width="fill_parent"
+		android:layout_height="20dip">
+    	<TextView android:id="@+id/timer"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="20dip"
+	    	android:textColor="#ffffff"
+	    	android:layout_centerInParent="true"/> 
+    	<ImageButton android:id="@+id/btnDoubleStart" 
+    		android:visibility="gone"
+			android:layout_width="40dip" 
+			android:layout_height="20dip" 
+			android:layout_alignParentRight="true"/>  	 
+    </RelativeLayout>
+    <com.psychoanalysis.view.QuestionPanel android:id="@+id/iqsubject"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:layout_below="@+id/title_area"
+		android:layout_above="@+id/answer_area"
+    	android:layout_centerHorizontal="true"/>
+
+	<LinearLayout
+		android:id="@+id/answer_area"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/Menu"
+		android:orientation="vertical"> 
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">		  
+			<com.psychoanalysis.view.AnswerPanel android:id="@+id/btn1" 
+				android:layout_width="68dp" 
+				android:layout_height="62dp"
+				android:layout_marginLeft="21dip"
+				android:background="@drawable/answer_button"/>		
+			<com.psychoanalysis.view.AnswerPanel android:id="@+id/btn2" 
+				android:layout_width="68dp" 
+				android:layout_height="62dp"
+				android:layout_marginLeft="93dip"
+				android:background="@drawable/answer_button"/>			
+			<com.psychoanalysis.view.AnswerPanel android:id="@+id/btn3" 
+				android:layout_width="68dp" 
+				android:layout_height="62dp"
+				android:layout_marginLeft="165dip"
+				android:background="@drawable/answer_button"/>					
+			<com.psychoanalysis.view.AnswerPanel android:id="@+id/btn4" 
+				android:layout_width="68dp" 
+				android:layout_height="62dp"
+				android:layout_marginLeft="237dip"
+				android:background="@drawable/answer_button"/>				
+		</RelativeLayout>		
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">	  
+			<com.psychoanalysis.view.AnswerPanel android:id="@+id/btn5" 
+				android:layout_width="68dp" 
+				android:layout_height="62dp"
+				android:layout_marginLeft="21dip"
+				android:background="@drawable/answer_button"/>				
+			<com.psychoanalysis.view.AnswerPanel android:id="@+id/btn6" 
+				android:layout_width="68dp" 
+				android:layout_height="62dp"
+				android:layout_marginLeft="93dip"
+				android:background="@drawable/answer_button"/>				
+			<com.psychoanalysis.view.AnswerPanel android:id="@+id/btn7" 
+				android:layout_width="68dp" 
+				android:layout_height="62dp"
+				android:layout_marginLeft="165dip"
+				android:background="@drawable/answer_button"/>					
+			<com.psychoanalysis.view.AnswerPanel android:id="@+id/btn8" 
+				android:layout_width="68dp" 
+				android:layout_height="62dp"
+				android:layout_marginLeft="237dip"
+				android:background="@drawable/answer_button"/>						
+		</RelativeLayout>
+	</LinearLayout>
+	<RelativeLayout
+		android:id="@+id/Menu"
+		android:layout_alignParentBottom="true"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:background="@drawable/tool_bg">		  
+		<ImageButton android:id="@+id/btnMenu" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_alignParentLeft="true"		
+			android:background="@drawable/btn_menu"/>
+		<ImageButton android:id="@+id/btnScan" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_centerHorizontal="true" 
+			android:background="@drawable/btn_over"/>	
+		<ImageButton android:id="@+id/btnOut" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_alignParentBottom="true"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_alignParentRight="true"
+			android:background="@drawable/btn_exit"/>							
+	</RelativeLayout>	
+</RelativeLayout>
+

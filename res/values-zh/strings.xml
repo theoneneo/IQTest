@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智商测试</string>
+    <string name="iq_score">您的智商IQ得分是：</string>
+    <string name="logout">退出程序</string>
+    <string name="logout_title">退出确认</string>
+    <string name="logout_info">确定退出程序？</string>
+    <string name="link_server">正在连接服务器...</string>
+    <string name="help_title">帮助</string>
+    <string name="help_info">帮助内容专业部分：本测试不同于互联网上智商（Intelligence Quotient IQ） 测试简化版或娱乐版本，是专业的智商测试工具，采用离差智商，
+    	即通过与其他同龄人比较确定智商水平，依托于全球近30万人的常模数据，将智龄与一常模比较，为您的IQ测试提供准确的等级评估。
+    	测试分级标准：
+    	\n 130 以上 非常优秀 
+    	\n 120～129 优 秀 
+    	\n 110～119 中上（聪明） 
+    	\n 90～109 中 等 
+    	\n 80～89 中下（迟钝） 
+    	\n 70～79 临界状态 
+    	\n 70 以下 智力缺陷
+    	\n每个页面分为三部分，上部为问题区，中部为答案区，下方为功能区域。
+    	\n测试者依据问题区的图形，在答案区进行选择，点击答案,全部题目回答完毕，则会自动切换到结果页面，显示智商测试结果。
+    	\n功能区域从左至右依次由菜单按钮，题目浏览按钮，退出按钮三部分组成。触碰其相应区域，激活其对应功能。
+    	\n智商排行：测试者可以在结果页面提交自己的测试结果后，与其他的参与者进行智商的比拼较量!!!
+    	\n此功能为互联网功能。</string>
+    <string name="about_title">关于</string>
+    <string name="about_info">智力（intelligence）是一种一般的心理能力，与其他事物一样，包含推理、计划、问题解决、抽象思维、理解复杂思想、快速学习和从经验中学习能力，专业的智商测试采用比率智商或离差智商进行计算。
+           天才测试灵感源于瑞文高级推理，设计上以逻辑能力测试为基础，并且还包含学习能力，记忆力，创新思维能力，多问题并发处理能力等测试，不受文化背景的影响，用来测试一般智力因素（g因素）。评估核心参数:Average=100，SD=15
+           测评核心技术和软件研发由TECHTHEME专业技术组织的心理研究组和嵌入移动开发组共同提供，该组织心理学方向由多名顶级心理学专家组成，研究兴趣主要在心理监控手段，情绪和压力管理，心理测量和人才选拔，企业EAP服务等，曾为奥运心理
+           科技服务做出突出贡献，并获国家级荣誉；嵌入移动开发方向由多名拥有5年以上移动研发经验的开发工程师组成，曾先后与Gameloft、Fastmobile、Xcome、Pica、Apple等全球著名公司合作研发各类移动产品应用。 
+    \n有任何需要请随时联系：
+    \n peilinchen@126.com  
+    \n mobi.liubing@gmail.com
+   	\n网址
+   	\n http://www.techtheme.org</string>    
+    <string name="iq_pk">想和别人比比智商吗？  智商大PK！！！</string>  
+    
+    <string name="menu_1">智商评分</string>
+    <string name="menu_2">智商排行</string> 
+    <string name="menu_3">帮助</string> 
+    <string name="menu_4">关于</string>
+    <string name="menu_5">其他软件</string>
+    <string name="menu_6">退出</string>  
+    
+    <string name="browse_data">浏览题目</string>
+    <string name="your_iq">您的智商(IQ)为:</string>
+    <string name="iq_Differentials">以标准差为15基础进行计算</string>
+    <string name="standard_1">极低</string>
+    <string name="standard_2">较低</string>
+    <string name="standard_3"> 平均</string>
+    <string name="standard_4">较高</string>
+    <string name="standard_5">天才</string>
+    <string name="update_info">版本更新，请及时升级</string>
+</resources>
