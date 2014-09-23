@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 WiYun Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+	<!-- activity titles -->
+	<string name="wy_title_dashboard" formatted="false">游戏面板</string>
+	<string name="wy_title_leaderboards" formatted="false">排行榜</string>
+	<string name="wy_title_achievements" formatted="false">成就</string>
+	<string name="wy_title_challenges" formatted="false">挑战</string>
+	<string name="wy_title_discussion" formatted="false">讨论/反馈</string>
+	<string name="wy_title_who_is_playing" formatted="false">看看谁在玩</string>
+	<string name="wy_title_user_dashboard" formatted="false">用户面板</string>
+	<string name="wy_title_my_friends" formatted="false">我的好友</string>
+	<string name="wy_title_x_friends" formatted="false">%s的好友</string>
+	<string name="wy_title_my_games" formatted="false">我的游戏</string>
+	<string name="wy_title_x_games" formatted="false">%s的游戏</string>
+	<string name="wy_title_challenge_info" formatted="false">挑战的详细信息</string>
+	<string name="wy_title_post_topic" formatted="false">发表新主题</string>
+	<string name="wy_title_post_reply" formatted="false">发表新回复</string>
+	<string name="wy_title_share_game" formatted="false">分享游戏</string>
+	<string name="wy_title_message_history" formatted="false">消息历史</string>
+	<string name="wy_title_message_threads" formatted="false">收件箱</string>
+	<string name="wy_title_system_notice" formatted="false">系统通知</string>
+	<string name="wy_title_edit_profile" formatted="false">编辑帐号信息</string>
+	<string name="wy_title_search_user" formatted="false">搜索用户</string>
+	<string name="wy_title_how_to_find_friends" formatted="false">如何找寻好友</string>
+	<string name="wy_title_send_challenge" formatted="false">发起挑战</string>
+	<string name="wy_title_honor_roll" formatted="false">荣誉榜</string>
+	<string name="wy_title_my_neighbors" formatted="false">我的邻居</string>
+	<string name="wy_title_fan_club" formatted="false">收藏/分享</string>
+
+	<!-- app dashboard item name -->
+	<string name="wy_item_leaderboard" formatted="false">排行榜</string>
+	<string name="wy_item_achievement" formatted="false">成就</string>
+	<string name="wy_item_challenge" formatted="false">挑战</string>
+	<string name="wy_item_discussion" formatted="false">讨论/反馈</string>
+	<string name="wy_item_who_is_playing" formatted="false">看看谁在玩</string>
+	<string name="wy_item_fan_club" formatted="false">收藏/分享</string>
+	
+	<!-- my wiyun item name -->
+	<string name="wy_item_my_friends" formatted="false">我的好友</string>
+	<string name="wy_item_my_neighbors" formatted="false">我的邻居</string>
+	<string name="wy_item_my_games" formatted="false">我的游戏</string>
+	<string name="wy_item_my_message" formatted="false">我的消息</string>
+	<string name="wy_item_system_notice" formatted="false">系统通知</string>
+	<string name="wy_item_edit_profile" formatted="false">编辑帐号信息</string>
+	<string name="wy_item_help" formatted="false">微云帮助</string>
+
+	<!-- wiyun item name -->
+	<string name="wy_item_featured_games" formatted="false">精品游戏</string>
+	<string name="wy_item_my_friends_games" formatted="false">好友的游戏</string>
+	<string name="wy_item_most_popular" formatted="false">玩家最爱</string>
+	<string name="wy_item_recently_added" formatted="false">最新加入</string>
+	<string name="wy_item_developer_apps" formatted="false">开发者其它作品</string>
+	<string name="wy_item_wiyun_five" formatted="false">微云游戏轮盘</string>
+	
+	<!-- control panel items -->
+	<string name="wy_item_import_friends" formatted="false">搜索用户</string>
+	<string name="wy_item_edit_account_retrieval" formatted="false">设置帐号绑定信息</string>
+	<string name="wy_item_change_name" formatted="false">修改我的微云用户名</string>
+	<string name="wy_item_change_avatar" formatted="false">修改我的头像</string>
+	<string name="wy_item_switch_account" formatted="false">切换到其它帐号</string>
+	<string name="wy_item_create_new_account" formatted="false">创建新帐号</string>
+	<string name="wy_item_unbind_account" formatted="false">从本机中删除当前帐号</string>
+	<string name="wy_item_privacy_and_other_settings" formatted="false">隐私以及其它设置</string>
+
+	<!-- user dashboard item name -->
+	<string name="wy_item_friends" formatted="false">好友</string>
+	<string name="wy_item_games" formatted="false">玩过的游戏</string>
+	<string name="wy_item_locate" formatted="false">定位该用户当前位置</string>
+	<string name="wy_item_last_known_location" formatted="false">最近该用户出现的位置</string>
+	
+	<!-- items in change portrait list -->
+	<string name="wy_item_take_from_camera" formatted="false">拍摄一张照片</string>
+	<string name="wy_item_choose_a_picture" formatted="false">从已有图片中选择</string>
+	<string name="wy_item_use_default_icon" formatted="false">使用微云缺省头像</string>
+	
+	<!-- items in fan club -->
+	<string name="wy_item_add_app_to_favorite" formatted="false">收藏\"%s\"</string>
+	<string name="wy_item_remove_app_from_favorite" formatted="false">取消收藏\"%s\"</string>
+	<string name="wy_item_share_app" formatted="false">分享该应用给好友</string>
+	
+	<!-- score tab name -->
+	<string name="wy_score_global" formatted="false">全球</string>
+	<string name="wy_score_friends" formatted="false">好友</string>
+	<string name="wy_score_near_me" formatted="false">附近</string>
+
+	<!-- score sub tab name -->
+	<string name="wy_time_day" formatted="false">本日</string>
+	<string name="wy_time_week" formatted="false">本周</string>
+	<string name="wy_time_month" formatted="false">本月</string>
+	<string name="wy_time_all" formatted="false">所有</string>
+	
+	<!-- friends tab name -->
+	<string name="wy_friends_friends" formatted="false">我的好友</string>
+	<string name="wy_friends_pending" formatted="false">好友请求</string>
+
+	<!-- send challenge tab name -->
+	<string name="wy_send_challenge_friends" formatted="false">我的好友</string>
+	<string name="wy_send_challenge_neighbors" formatted="false">我的邻居</string>
+	<string name="wy_send_challenge_by_score" formatted="false">实力相当</string>
+	
+	<!-- app tab name -->
+	<string name="wy_apps_all_games" formatted="false">玩过的游戏</string>
+	<string name="wy_apps_invitation" formatted="false">好友分享</string>
+	
+	<!-- challenge tab name -->
+	<string name="wy_challenge_pending" formatted="false">收到的挑战</string>
+	<string name="wy_challenge_history" formatted="false">战斗历史</string>
+	
+	<!-- challenge history tab name -->
+	<string name="wy_challenge_history_sent" formatted="false">我发起的</string>
+	<string name="wy_challenge_history_received" formatted="false">我收到的</string>
+	
+	<!-- who is playing tab name -->
+	<string name="wy_who_is_playing_friends" formatted="false">我的好友</string>
+	<string name="wy_who_is_playing_others" formatted="false">其他人</string>
+	
+	<!-- date format -->
+	<string name="wy_date_format_MMddHHmm" formatted="false">%d月%d日 %02d:%02d</string>
+	<string name="wy_date_format_MMdd" formatted="false">%d月%d日</string>
+	<string name="wy_date_format_yyyyMMddHHmm" formatted="false">%d年%d月%d日 %02d:%02d</string>
+	<string name="wy_date_format_yyyyMMdd" formatted="false">%d年%d月%d日</string>
+	
+	<!-- features name -->
+	<string name="wy_feature_million_users" formatted="false">百万玩家</string>
+	<string name="wy_feature_leaderboard" formatted="false">排行榜</string>
+	<string name="wy_feature_achievement" formatted="false">成就</string>
+	<string name="wy_feature_challenge" formatted="false">挑战</string>
+	<string name="wy_feature_games" formatted="false">千款游戏</string>
+	<string name="wy_feature_message" formatted="false">消息</string>
+
+	<!-- topic category name -->
+	<string name="wy_topic_idea" formatted="false">点子</string>
+	<string name="wy_topic_problem" formatted="false">缺陷</string>
+	<string name="wy_topic_question" formatted="false">提问</string>
+	<string name="wy_topic_praise" formatted="false">赞扬</string>
+	
+	<!-- buttons -->
+	<string name="wy_button_ok" formatted="false">确定</string>
+	<string name="wy_button_cancel" formatted="false">取消</string>
+	<string name="wy_button_clear" formatted="false">清除</string>
+	<string name="wy_button_no_thanks" formatted="false">暂时不使用这些神奇的功能</string>
+	<string name="wy_button_enable_wiyun_cloud" formatted="false">开始使用微云</string>
+	<string name="wy_button_login_with_this_name" formatted="false">使用该名称登录</string>
+	<string name="wy_button_login_with_this_account" formatted="false">使用该帐号登录</string>
+	<string name="wy_button_switch_account" formatted="false">我想使用其它帐号登录</string>
+	<string name="wy_button_submit" formatted="false">提交</string>
+	<string name="wy_button_create_new_account" formatted="false">创建新帐号</string>
+	<string name="wy_button_continue" formatted="false">继续</string>
+	<string name="wy_button_invite_gmail_contacts" formatted="false">邀请Gmail联系人</string>
+	<string name="wy_button_share_location" formatted="false">允许共享您的当前位置</string>
+	<string name="wy_button_share_status" formatted="false">允许共享您的在线状态</string>
+	<string name="wy_button_add_friend" formatted="false">添加为好友</string>
+	<string name="wy_button_remove_friend" formatted="false">删除该好友</string>
+	<string name="wy_button_report_user" formatted="false">举报该用户</string>
+	<string name="wy_button_message" formatted="false">发送消息</string>
+	<string name="wy_button_play_challenge" formatted="false">迎战!</string>
+	<string name="wy_button_post" formatted="false">发表</string>
+	<string name="wy_button_send" formatted="false">发送</string>
+	<string name="wy_button_search" formatted="false">在微云中搜索</string>
+	<string name="wy_button_bet" formatted="false">押上我的荣誉(当前: %d)</string>
+	<string name="wy_button_locate" formatted="false">定位</string>
+	<string name="wy_button_reject" formatted="false">拒绝</string>
+	<string name="wy_button_post_topic" formatted="false">发表新主题</string>
+	<string name="wy_button_view_app" formatted="false">查看应用详情</string>
+	<string name="wy_button_cancel_challenge" formatted="false">取消未响应的挑战</string>
+	
+	<!-- option items -->
+	<string name="wy_option_item_clear" formatted="false">清除</string>
+	<string name="wy_option_item_clear_all" formatted="false">清除所有</string>
+	<string name="wy_option_item_search_user" formatted="false">搜索用户</string>
+	<string name="wy_option_item_my_friends" formatted="false">我的好友</string>
+	<string name="wy_option_item_exit" formatted="false">返回游戏</string>
+	
+	<!-- context item -->
+	<string name="wy_context_item_view_user" formatted="false">查看该用户信息</string>
+	<string name="wy_context_item_reply_floor_host" formatted="false">回复楼主</string>
+	<string name="wy_context_item_reply_x_floor" formatted="false">回复%d楼</string>
+	<string name="wy_context_item_focus_topic" formatted="false">关注该帖</string>
+	<string name="wy_context_item_remove_focus" formatted="false">不再关注该帖</string>
+	<string name="wy_context_item_add_to_favorite" formatted="false">收藏该游戏</string>
+	<string name="wy_context_item_remove_from_favorite" formatted="false">取消收藏该游戏</string>
+	<string name="wy_context_item_clear" formatted="false">清除</string>
+	<string name="wy_context_item_clear_all" formatted="false">清除所有</string>
+	<string name="wy_context_item_accept" formatted="false">接受</string>
+	<string name="wy_context_item_accept_all" formatted="false">接受所有</string>
+	<string name="wy_context_item_decline" formatted="false">拒绝</string>
+	<string name="wy_context_item_decline_all" formatted="false">拒绝所有</string>
+	<string name="wy_context_item_enter_app_dashboard" formatted="false">进入该游戏面板</string>
+	<string name="wy_context_item_share_app" formatted="false">推荐给好友</string>
+	<string name="wy_context_item_view_app" formatted="false">查看应用详情</string>
+	
+	<!-- labels -->
+	<string name="wy_label_loading" formatted="false">正在载入...</string>
+	<string name="wy_label_online" formatted="false">在线</string>
+	<string name="wy_label_join_wiyun_cloud" formatted="false">加入百万玩家并浏览上千款游戏</string>
+	<string name="wy_label_get_most_out" formatted="false">准备在微云中飞翔吧</string>
+	<string name="wy_label_welcome_back" formatted="false">欢迎回来</string>
+	<string name="wy_label_find_account_for_this_device" formatted="false">发现了和该设备相关的帐号</string>
+	<string name="wy_label_switch_account" formatted="false">切换到其他帐户</string>
+	<string name="wy_label_account_retrieval" formatted="false">设置帐号绑定信息</string>
+	<string name="wy_label_change_name" formatted="false">修改名字</string>
+	<string name="wy_label_unbind_account" formatted="false">删除当前帐号</string>
+	<string name="wy_label_privacy_and_other_settings" formatted="false">隐私与其他设置</string>
+	<string name="wy_label_change_portrait" formatted="false">修改头像</string>
+	<string name="wy_label_enter_email_password" formatted="false">请输入您绑定到微云帐号上的电子邮件地址, 手机号和密码</string>
+	<string name="wy_label_about_account_retrieval" formatted="false">给您的微云用户设置绑定信息, 这样您就可以从不同的手机上登录微云了</string>
+	<string name="wy_label_about_change_name" formatted="false">如果您想改变自己的微云用户名, 请输入新的用户名然后点击提交按钮</string>
+	<string name="wy_label_about_unbind_account" formatted="false">请注意: 帐号将从此手机上删除, 如果以后您还想使用此帐号, 可以输入您的帐号绑定信息(电子邮件或手机号, 以及密码)重新找回此帐号</string>
+	<string name="wy_label_about_privacy_and_other_settings" formatted="false">您可以修改以下这些设置</string>
+	<string name="wy_label_about_submit_score" formatted="false">请输入您的名称, 如果已经有了名称, 直接点击提交按钮即可</string>
+	<string name="wy_label_email_colon" formatted="false">电子邮件:</string>
+	<string name="wy_label_mobile_colon" formatted="false">电话号码:</string>
+	<string name="wy_label_old_password_colon" formatted="false">旧密码:</string>
+	<string name="wy_label_password_colon" formatted="false">密码:</string>
+	<string name="wy_label_new_password_colon" formatted="false">新密码:</string>
+	<string name="wy_label_confirm_password_colon" formatted="false">确认:</string>
+	<string name="wy_label_current_name_colon" formatted="false">当前用户名:</string>
+	<string name="wy_label_new_name_colon" formatted="false">新用户名:</string>
+	<string name="wy_label_choose_wiyun_name" formatted="false">编辑您的微云用户名</string>
+	<string name="wy_label_please_enter_wiyun_username" formatted="false">请输入您想要的用户名</string>
+	<string name="wy_label_random_pick_five_games" formatted="false">我们为您随机推荐5个游戏</string>
+	<string name="wy_label_see_apps_of_this_developer" formatted="false">查看该开发者开发的其他应用</string>
+	<string name="wy_label_x_games_your_friends_playing" formatted="false">您的好友收藏了%d个游戏</string>
+	<string name="wy_label_find_what_friends_playing" formatted="false">看看您的好友都在玩什么游戏</string>
+	<string name="wy_label_can_change_setting_anytime" formatted="false">您可以随时在微云中修改设置</string>
+	<string name="wy_label_invite_friends" formatted="false">邀请您的好友, 让他们来和您一起游戏和战斗!</string>
+	<string name="wy_label_search_friends" formatted="false">通过名字搜索已经加入到微云中的好友</string>
+	<string name="wy_label_playing_x" formatted="false">正在玩%s</string>
+	<string name="wy_label_last_played_x" formatted="false">最近在玩%s</string>
+	<string name="wy_label_my_score" formatted="false">我的分数</string>
+	<string name="wy_label_everyone" formatted="false">其他人</string>
+	<string name="wy_label_my_friends" formatted="false">我的好友</string>
+	<string name="wy_label_no_more_to_load" formatted="false">无更多结果</string>
+	<string name="wy_label_showing_x_of_y" formatted="false">当前显示%d条结果, 共%d条</string>
+	<string name="wy_label_load_next_x_more" formatted="false">显示下%d条</string>
+	<string name="wy_label_load_prev_x_more" formatted="false">显示上%d条</string>
+    <string name="wy_label_x_has_no_friends" formatted="false">%s没有任何好友</string>
+    <string name="wy_label_x_has_no_played_games" formatted="false">%s还没有玩过任何游戏</string>
+    <string name="wy_label_i_have_no_friends" formatted="false">您还没有添加任何好友</string>
+    <string name="wy_label_i_have_no_played_games" formatted="false">您还没有玩过任何游戏</string>
+    <string name="wy_label_offline" formatted="false">离线</string>
+    <string name="wy_label_secret_achievement_desc" formatted="false">完成该成就时才可看到具体描述</string>
+    <string name="wy_label_challenge_from_x" formatted="false">来自%s的挑战</string>
+    <string name="wy_label_challenge_to_x" formatted="false">发给%s的挑战</string>
+    <string name="wy_label_balance_points" formatted="false">战斗总盈亏</string>
+    <string name="wy_label_ties" formatted="false">平</string>
+    <string name="wy_label_wins" formatted="false">胜</string>
+    <string name="wy_label_losses" formatted="false">负</string>
+    <string name="wy_label_rejects" formatted="false">拒绝</string>
+    <string name="wy_label_challenge_history" formatted="false">战斗历史</string>
+    <string name="wy_label_receivers" formatted="false">被挑战的玩家</string>
+    <string name="wy_label_x_score_is_y" formatted="false">%s的分数是%s</string>
+    <string name="wy_label_my_score_is_x" formatted="false">我的分数是%s</string>
+    <string name="wy_label_current_score_is_x" formatted="false">我的分数是%s</string>
+    <string name="wy_label_challenge_not_completed" formatted="false">还没有响应对方的挑战</string>
+    <string name="wy_label_challenge_not_completed_2" formatted="false">还没有响应我的挑战</string>
+    <string name="wy_label_you_reject_this_challenge" formatted="false">您拒绝了这次挑战</string>
+    <string name="wy_label_input_dialog" formatted="false">输入对话框</string>
+    <string name="wy_label_one_shot_challenge" formatted="false">只有一次机会</string>
+    <string name="wy_label_confirm_play_one_shot_challenge" formatted="false">这个挑战只有一次战斗机会, 是否现在就开始?</string>
+    <string name="wy_label_downloading_challenge_blob" formatted="false">请稍等, 正在下载挑战数据, 下载完成后将开始战斗</string>
+    <string name="wy_label_last_post_by" formatted="false">%s最后发帖于%s</string>
+    <string name="wy_label_reply" formatted="false">回复</string>
+    <string name="wy_label_total" formatted="false">总荣誉</string>
+    <string name="wy_label_myself" formatted="false">我自己</string>
+    <string name="wy_label_friends" formatted="false">我的好友</string>
+    <string name="wy_label_share_game_to_your_friends" formatted="false">您的朋友还没有玩这个游戏的, 赶快把这个游戏推荐给他们, 让他们来和您一起玩吧!</string>
+    <string name="wy_label_nobody_playing_this_game" formatted="false">目前没有其他玩家玩过这个游戏</string>
+    <string name="wy_label_user_has_no_friends" formatted="false">该用户还没有添加任何好友</string>
+    <string name="wy_label_you_have_no_friends" formatted="false">您还没有添加任何好友, 请先在微云中找寻您的好友吧</string>
+    <string name="wy_label_you_have_no_apps" formatted="false">您还没有玩过任何游戏</string>
+    <string name="wy_label_user_have_no_apps" formatted="false">该用户还没有玩过任何游戏</string>
+    <string name="wy_label_select_friends" formatted="false">选择好友</string>
+    <string name="wy_label_join_this_game" formatted="false">我正在玩%s, 这个太好玩了, 一起来玩吧.</string> 
+    <string name="wy_label_my_friends_hint" formatted="false">管理我的好友和他人的添加请求</string>
+    <string name="wy_label_my_friends_hint2" formatted="false">您收到了%d个好友添加请求</string>
+    <string name="wy_label_my_neighbors_hint" formatted="false">最近在您周围30公里内出现过的玩家</string>
+    <string name="wy_label_my_games_hint" formatted="false">我曾经玩过的游戏和他人的邀请</string>
+    <string name="wy_label_my_games_hint2" formatted="false">您的好友给您发送了%d个游戏推荐</string>
+    <string name="wy_label_my_message_hint" formatted="false">查看我和其他用户的消息历史</string>
+    <string name="wy_label_my_message_hint2" formatted="false">您有%d条未读消息</string>
+    <string name="wy_label_system_notice_hint" formatted="false">系统通知一些需要您关注的事件</string>
+    <string name="wy_label_system_notice_hint2" formatted="false">您有%d条未读系统通知</string>
+    <string name="wy_label_my_games" formatted="false">我的游戏</string>
+    <string name="wy_label_x_games" formatted="false">%s的游戏</string>
+    <string name="wy_label_x_recommend_y" formatted="false">%s向您推荐%s</string>
+    <string name="wy_label_x_want_to_add_you" formatted="false">%s想添加您为好友</string>
+    <string name="wy_label_x_accept_you" formatted="false">%s接受了您的好友邀请</string>
+    <string name="wy_label_x_join_wiyun" formatted="false">%s(邮件地址: %s)已经加入了微云</string>
+    <string name="wy_label_x_send_message_to_you" formatted="false">%s给您发送了新消息</string>
+    <string name="wy_label_x_has_new_reply" formatted="false">您关注的主题\"%s\"中有新的回复</string>
+    <string name="wy_label_x_send_challenge_to_you" formatted="false">%s向您发起了一个新的挑战</string>
+    <string name="wy_label_x_complete_challenge" formatted="false">%s完成了您发送给他的挑战</string>
+    <string name="wy_label_current_account_is_x" formatted="false">当前帐号是\"%s\"</string>
+    <string name="wy_label_logged_in_as_x" formatted="false">您已成功切换到帐号: %s</string>
+    <string name="wy_label_x_games_your_friend_playing" formatted="false">您的好友共玩过%d个游戏</string>
+    <string name="wy_label_most_popular" formatted="false">看看被大家收藏最多的游戏吧</string>
+    <string name="wy_label_about_featured_games" formatted="false">向您强烈推荐的优秀游戏</string>
+    <string name="wy_label_about_recently_added" formatted="false">看看最近有哪些游戏加入了微云游戏平台</string>
+    <string name="wy_label_marked_by_x_users" formatted="false">该游戏被%d人收藏</string>
+    <string name="wy_label_download_source" formatted="false">可用下载点</string>
+    <string name="wy_label_screenshots" formatted="false">软件截图</string>
+    <string name="wy_label_seller_x" formatted="false">发布者: %s</string>
+    <string name="wy_label_free" formatted="false">免费</string>
+    <string name="wy_label_from_x_market" formatted="false">从%s下载</string>
+    <string name="wy_label_description" formatted="false">详细介绍</string>
+    <string name="wy_label_come_on_to_defeat_me" formatted="false">你不可能战胜我!</string>
+    <string name="wy_label_about_make_a_bet" formatted="false">您可以为这次挑战押上荣誉点, 每战胜一个对手您可以赢得相应荣誉点数, 失败则失去荣誉点数. 挑战所需的点数会从您的总荣誉中暂扣.\n\n这个挑战限制的最小和最大点数是:\n最小: %s\n最大: %s\n\n您当前的总荣誉: %d</string>
+    <string name="wy_label_unlimited" formatted="false">无限制</string>
+    <string name="wy_label_achieved_at_x" formatted="false">达成于%s</string>
+    <string name="wy_label_achieved_from_x_kilometers" formatted="false">达成位置距我现在%.03f公里</string>
+    <string name="wy_label_title_with_colon" formatted="false">标题:</string>
+    <string name="wy_label_category_with_colon" formatted="false">分类:</string>
+    <string name="wy_label_no_leaderboards" formatted="false">该游戏无排行榜</string>
+    <string name="wy_label_no_achievements" formatted="false">该游戏无成就</string>
+    <string name="wy_label_no_pending_challenges" formatted="false">目前您没有未完成的挑战, 邀请好友一起来玩, 互相挑战吧</string>
+    <string name="wy_label_no_challenge_results" formatted="false">目前无战斗记录</string>
+    <string name="wy_label_no_challenge_history" formatted="false">您目前没有完成的挑战</string>
+    <string name="wy_label_no_my_challenge_history" formatted="false">您还没有给您的好友发起过挑战, 赶快尝试一下吧</string>
+    <string name="wy_label_no_topics" formatted="false">目前没有讨论帖, 要不您来发第一帖吧!</string>
+    <string name="wy_label_no_threads" formatted="false">目前没有消息历史, 选择一个好友给他发消息吧</string>
+    <string name="wy_label_no_system_notices" formatted="false">目前没有发给您的系统通知</string>
+    <string name="wy_label_no_game_shared" formatted="false">目前没有收到好友给您推荐的游戏</string>
+    <string name="wy_label_bid_x" formatted="false">下注%d</string>
+    <string name="wy_label_no_friend_invitations" formatted="false">目前没有未处理的添加好友请求</string>
+    <string name="wy_label_before_x_second" formatted="false">%d秒前</string>
+    <string name="wy_label_before_x_minute" formatted="false">%d分钟前</string>
+    <string name="wy_label_before_x_hour" formatted="false">%d小时前</string>
+    <string name="wy_label_before_x_hour_minute" formatted="false">%d小时%d分钟前</string>
+    <string name="wy_label_before_x_day" formatted="false">%d天前</string>
+    <string name="wy_label_leaderboard" formatted="false">排行榜</string>
+    <string name="wy_label_submit_score" formatted="false">提交分数</string>
+    <string name="wy_label_score_with_colon" formatted="false">分数:</string>
+    <string name="wy_label_name_with_colon" formatted="false">姓名:</string>
+    <string name="wy_label_skip_to_page_x" formatted="false">跳转到第%d页</string>
+    <string name="wy_label_floor_host" formatted="false">楼主</string>
+    <string name="wy_label_first_floor" formatted="false">1楼(沙发)</string>
+    <string name="wy_label_second_floor" formatted="false">2楼(板凳)</string>
+    <string name="wy_label_x_floor" formatted="false">%d楼</string>
+    <string name="wy_label_connection_problem" formatted="false">网络连接错误, 请稍后重试</string>
+    <string name="wy_label_provide_at_least_one" formatted="false">以上请至少填写一项</string>
+    <string name="wy_label_click_post_for_more_action" formatted="false">点击帖子查看更多操作</string>
+    <string name="wy_label_reply_x_floor" formatted="false">回复%d楼:\n</string>
+    <string name="wy_label_now_from_me_x_kilometers" formatted="false">该用户当前距我%.03f公里</string>
+    <string name="wy_label_recently_from_me_x_kilometers" formatted="false">最近该用户出现在离我%.03f公里的地方</string>
+    <string name="wy_label_view_challenge_related_app" formatted="false">这个挑战需要用\"%s\"玩, 您安装了吗?</string>
+    <string name="wy_label_app_already_installed" formatted="false">您已经安装了\"%s\"</string>
+    <string name="wy_label_no_android_version" formatted="false">\"%s\"目前没有Android版本</string>
+    <string name="wy_label_no_proper_market_links" formatted="false">目前没有合适的下载点</string>
+    <string name="wy_label_me" formatted="false">我</string>
+    <string name="wy_label_no_friends_accomplish_this" formatted="false">你的好友中无人达成此项成就</string>
+    <string name="wy_label_nobody_accomplish_this" formatted="false">目前无人达成此项成就</string>
+    <string name="wy_label_players_achieved_x" formatted="false">达成\"%s\"成就的玩家</string>
+    <string name="wy_label_logging_in" formatted="false">正在登录...</string>
+    <string name="wy_label_welcome_to_wiyun" formatted="false">欢迎使用微云</string>
+    <string name="wy_label_no_neighbors" formatted="false">没有发现和您邻近的玩家, 尝试邀请您附近的朋友一起来玩吧</string>
+    <string name="wy_label_cannot_locate_myself" formatted="false">暂时无法获得您的位置信息, 请确认GPS功能可用, 稍后再试.</string>
+    <string name="wy_label_no_competitor_found" formatted="false">暂时没有发现和您实力相近的其他玩家</string>
+    <string name="wy_label_best_score_is_x" formatted="false">历史最好成绩: %s</string>
+    
+    <!-- placeholder text -->
+    <string name="wy_placeholder_enter_friend_wiyun_name" formatted="false">输入微云用户名进行搜索</string>
+    <string name="wy_placeholder_enter_add_friend_message" formatted="false">输入验证消息以便对方知道您是谁, 可以不输入</string>
+    <string name="wy_placeholder_enter_title" formatted="false">输入帖子的标题</string>
+    <string name="wy_placeholder_enter_username" formatted="false">输入微云用户名</string>
+    
+	<!-- toast -->
+	<string name="wy_toast_server_error" formatted="false">服务器正忙, 请等待一会儿后再试</string>
+	<string name="wy_toast_username_cannot_be_empty" formatted="false">用户名不能为空</string>
+	<string name="wy_toast_please_provide_at_least_one" formatted="false">请输入电子邮件或电话号码</string>
+	<string name="wy_toast_email_is_invalid" formatted="false">电子邮件地址无效</string>
+	<string name="wy_toast_password_cannot_be_empty" formatted="false">密码不能为空</string>
+	<string name="wy_toast_old_password_cannot_be_empty" formatted="false">请输入旧密码</string>
+	<string name="wy_toast_new_password_cannot_be_empty" formatted="false">请输入新密码</string>
+	<string name="wy_toast_confirm_password_cannot_be_empty" formatted="false">请确认新密码</string>
+	<string name="wy_toast_two_passwords_not_match" formatted="false">新密码不匹配</string>
+	<string name="wy_toast_user_settings_updated" formatted="false">设置已经更新</string>
+	<string name="wy_toast_app_invitation_sent" formatted="false">游戏邀请发送成功</string>
+	<string name="wy_toast_content_cannot_be_empty" formatted="false">内容不能为空</string>
+	<string name="wy_toast_reply_successful" formatted="false">回帖成功</string>
+	<string name="wy_toast_post_topic_successful" formatted="false">主题发表成功</string>
+	<string name="wy_toast_welcome_back" formatted="false">欢迎回来: %s</string>
+	<string name="wy_toast_select_one_friend_at_least" formatted="false">请至少选择一个好友</string>
+	<string name="wy_toast_topic_is_focused" formatted="false">帖子被关注, 当有新回复时您会收到系统通知</string>
+	<string name="wy_toast_topic_is_unfocused" formatted="false">不再关注该帖</string>
+	<string name="wy_toast_please_enter_name" formatted="false">请输入姓名</string>
+	<string name="wy_toast_please_enter_searched_name" formatted="false">请输入要搜索的用户名</string>
+	<string name="wy_toast_app_is_added_to_favorited" formatted="false">该游戏加入到了我的收藏</string>
+	<string name="wy_toast_app_is_removed_from_favorite" formatted="false">该游戏已从我的收藏移除</string>
+	<string name="wy_toast_account_retrieval_is_set" formatted="false">帐户绑定信息已经设置</string>
+	<string name="wy_toast_new_name_cannot_be_empty" formatted="false">请输入新用户名</string>
+	<string name="wy_toast_new_name_is_same_as_old" formatted="false">新用户名和旧用户名相同</string>
+	<string name="wy_toast_new_name_is_set" formatted="false">新用户名已设置</string>
+	<string name="wy_toast_account_is_removed" formatted="false">当前帐号已经从此设备删除</string>
+	<string name="wy_toast_portrait_is_updated" formatted="false">头像已经更新</string>
+	<string name="wy_toast_portrait_is_delete" formatted="false">已设置头像为微云缺省头像</string>
+	<string name="wy_toast_x_market_is_not_available" formatted="false">%s没有安装</string>
+    <string name="wy_toast_bid_is_less_than_min" formatted="false">所押荣誉点小于最小值</string>
+    <string name="wy_toast_bid_is_larger_than_max" formatted="false">所押荣誉点大于最大值</string>
+    <string name="wy_toast_bid_is_larger_than_your_points" formatted="false">当前押注超过了您的总荣誉</string>
+    <string name="wy_toast_point_is_not_enough" formatted="false">发起这个挑战您的总荣誉需要超过%d点才行 (点数乘以对手人数)</string>
+    <string name="wy_toast_challenge_require_bid" formatted="false">这个挑战必须要押上你的荣誉</string>
+    <string name="wy_toast_challenge_is_sent" formatted="false">挑战已经成功发送</string>
+    <string name="wy_toast_submitting_challenge_result" formatted="false">正在提交挑战结果...</string>
+    <string name="wy_toast_challenge_result_submitted" formatted="false">挑战结果提交成功</string>
+    <string name="wy_toast_challenge_result_cached" formatted="false">挑战结果提交失败, 将会在以后再尝试提交</string>
+    <string name="wy_toast_friend_invitation_is_sent" formatted="false">添加好友请求已经发送, 请等待对方通过</string>
+    <string name="wy_toast_friend_is_removed" formatted="false">该用户已从您的好友列表中删除</string>
+    <string name="wy_toast_friend_invitation_is_accepted" formatted="false">好友邀请被接受</string>
+    <string name="wy_toast_friend_invitation_is_declined" formatted="false">拒绝了对方的好友邀请</string>
+    <string name="wy_toast_submitting_score" formatted="false">正在提交分数...</string>
+    <string name="wy_toast_score_submitted" formatted="false">分数提交成功</string>
+    <string name="wy_toast_achievement_unlocked" formatted="false">您达成了一个新成就!</string>
+    <string name="wy_toast_x_achievement_unlocked" formatted="false">您达成了\"%s\"成就!</string>
+    <string name="wy_toast_failed_to_download_challenge_blob" formatted="false">下载挑战额外数据失败, 请等待一会儿后再试</string>
+    <string name="wy_toast_no_point_to_accept_challenge" formatted="false">对方为这个挑战押上了%d点荣誉, 您的总荣誉只有%d, 无法接受挑战</string>
+    <string name="wy_toast_challenge_rejected" formatted="false">挑战被您拒绝</string>
+    <string name="wy_toast_already_first_page" formatted="false">已到达首页</string>
+    <string name="wy_toast_already_last_page" formatted="false">已到达最后一页</string>
+    
+</resources>

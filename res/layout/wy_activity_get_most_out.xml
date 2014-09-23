@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 WiYun Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout 	
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_vertical"
+	android:paddingLeft="7dp"
+	android:paddingRight="7dp"
+	android:paddingTop="7dp"
+	android:paddingBottom="7dp"
+	android:background="@color/wy_top_container_bg">
+
+	<!-- center round rect area -->
+	<com.wiyun.game.widget.RoundRectFrameLayout
+		android:id="@+id/wy_center_area"
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:orientation="vertical"
+		android:gravity="center">
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:gravity="center_vertical">
+		
+			<!-- title -->
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:background="@drawable/wy_title_bg_style1"
+				android:gravity="center">
+				
+				<!-- hint text -->
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingLeft="15dp"
+					style="@android:style/TextAppearance.Medium"
+					android:singleLine="true"
+					android:drawableLeft="@drawable/wy_icon_get_most_out"
+					android:drawablePadding="10dp"
+					android:text="@string/wy_label_get_most_out"
+					android:textColor="@color/wy_tertiary_text_dark"/>
+						
+			</LinearLayout>
+			
+			<!-- separator -->
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:background="@drawable/wy_separator_style2"/>
+	
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:background="@drawable/wy_gradient_bg_style1_with_logo">
+				
+				<!-- hint text -->
+				<TextView	
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:paddingTop="18dp"
+					android:paddingRight="10dp"
+					android:paddingLeft="10dp"
+					style="@android:style/TextAppearance.Small"
+					android:textColor="@color/wy_tertiary_text_dark"
+					android:text="@string/wy_label_invite_friends"
+					android:visibility="gone"/>
+				
+				<!-- invite gmail contacts -->
+				<Button
+					android:id="@+id/wy_button_invite_gmail_contacts"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="7dp"
+					android:background="@drawable/wy_button_style1"
+					style="@android:style/TextAppearance.Medium"
+					android:text="@string/wy_button_invite_gmail_contacts"
+					android:visibility="gone"/>
+					
+				<!-- share location -->
+				<CheckBox
+					android:id="@+id/wy_checkbox"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:layout_marginLeft="20dp"
+					style="@android:style/TextAppearance.Medium"
+					android:textColor="@color/wy_tertiary_text_dark"
+					android:text="@string/wy_button_share_location"/>
+					
+				<!-- share status -->
+				<CheckBox
+					android:id="@+id/wy_checkbox2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="20dp"
+					style="@android:style/TextAppearance.Medium"
+					android:textColor="@color/wy_tertiary_text_dark"
+					android:text="@string/wy_button_share_status"/>
+				
+			</LinearLayout>
+					
+		</LinearLayout>
+		
+	</com.wiyun.game.widget.RoundRectFrameLayout>
+
+	<LinearLayout 	
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="7dp"
+		android:orientation="horizontal"
+		android:gravity="center_vertical">
+	
+		<!-- hint text -->
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			style="@android:style/TextAppearance.Small.Inverse"
+			android:text="@string/wy_label_can_change_setting_anytime"/>
+			
+		<!-- enable button -->
+		<Button
+			android:id="@+id/wy_button"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_marginLeft="10dp"
+			android:background="@drawable/wy_button_style1"
+			style="@android:style/TextAppearance.Small"
+			android:drawableLeft="@drawable/wy_icon_right_arrow"
+			android:singleLine="true"
+			android:textColor="@android:color/white"
+			android:text="@string/wy_button_continue"/>
+			
+	</LinearLayout>
+	
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 WiYun Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/wy_title_bar"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/wy_title_bar_bg">
+	
+	<!-- title text -->'
+	<TextView
+		android:id="@+id/wy_title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="80dp"
+		android:paddingRight="80dp"
+		android:layout_gravity="center"
+		style="@android:style/TextAppearance.Medium"
+		android:singleLine="true"
+		android:ellipsize="marquee"
+		android:gravity="center"
+		android:textStyle="bold"/>
+		
+	<!-- button bar -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical">
+
+		<Button
+			android:id="@+id/wy_button2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="6dp"
+			android:layout_marginRight="6dp"
+			android:background="@drawable/wy_button_home"/>
+
+		<View
+			android:layout_width="2dp"
+			android:layout_height="34dp"
+			android:background="@drawable/wy_separator_style5"/>
+			
+		<Button
+			android:id="@+id/wy_button3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="6dp"
+			android:layout_marginRight="6dp"
+			android:background="@drawable/wy_button_back"/>
+			
+		<View
+			android:layout_width="2dp"
+			android:layout_height="34dp"
+			android:background="@drawable/wy_separator_style5"/>
+			
+		<View
+			android:layout_width="0dp"
+			android:layout_height="1dp"
+			android:layout_weight="1"/>
+			
+		<View
+			android:layout_width="2dp"
+			android:layout_height="34dp"
+			android:background="@drawable/wy_separator_style5"/>
+			
+		<Button
+			android:id="@+id/wy_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp"
+			android:background="@drawable/wy_button_close"/>
+			
+	</LinearLayout>
+	
+</FrameLayout>

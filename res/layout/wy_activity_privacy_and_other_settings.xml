@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 WiYun Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_vertical">
+
+	<!-- title -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/wy_title_bg_style1"
+		android:gravity="center">
+		
+		<!-- hint text -->
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="15dp"
+			style="@android:style/TextAppearance.Medium"
+			android:singleLine="true"
+			android:drawableLeft="@drawable/wy_icon_general_settings"
+			android:drawablePadding="10dp"
+			android:text="@string/wy_label_privacy_and_other_settings"
+			android:textColor="@color/wy_tertiary_text_dark"/>
+			
+	</LinearLayout>
+
+	<!-- separator -->
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:background="@drawable/wy_separator_style2"/>
+
+	<!-- bottom area -->
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:fadingEdge="none"
+		android:scrollbarThumbVertical="@drawable/wy_scrollbar_vertical_thumb_style1"
+		android:background="@drawable/wy_gradient_bg_style1">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:paddingLeft="15dp"
+			android:paddingRight="20dp"
+			android:paddingTop="10dp"
+			android:paddingBottom="15dp">
+
+			<!-- hint -->
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				style="@android:style/TextAppearance.Small.Inverse"
+				android:text="@string/wy_label_about_privacy_and_other_settings"/>
+				
+			<!-- share location -->
+			<CheckBox
+				android:id="@+id/wy_checkbox"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="20dp"
+				android:layout_marginLeft="20dp"
+				style="@android:style/TextAppearance.Medium"
+				android:textColor="@color/wy_tertiary_text_dark"
+				android:text="@string/wy_button_share_location"/>
+				
+			<!-- share status -->
+			<CheckBox
+				android:id="@+id/wy_checkbox2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				style="@android:style/TextAppearance.Medium"
+				android:textColor="@color/wy_tertiary_text_dark"
+				android:text="@string/wy_button_share_status"/>
+
+			<!-- submit button -->
+			<Button
+				android:id="@+id/wy_button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:minWidth="150dp"
+				android:layout_marginTop="10dp"
+				android:layout_gravity="center_horizontal"
+				android:background="@drawable/wy_button_style1"
+				style="@android:style/TextAppearance.Medium"
+				android:text="@string/wy_button_submit"/>
+						
+		</LinearLayout>
+		
+	</ScrollView>
+	
+</LinearLayout>

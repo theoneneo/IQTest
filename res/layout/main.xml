@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+          android:layout_width="fill_parent" 
+          android:layout_height="fill_parent"
+          android:layout_weight="1">
+    <com.psychoanalysis.view.PanelSwitcher android:id="@+id/panelswitcher" 
+          android:layout_width="fill_parent" 
+          android:layout_height="fill_parent"
+          android:background="@drawable/bg"/>
+    </LinearLayout>
+	
+	<Button
+	android:id="@+id/psy"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="推荐应用：心理云"
+	/>
+</LinearLayout>
