@@ -26,6 +26,25 @@
             android:name=".MainActivity"
             android:label="@string/app_name" >
         </activity>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="542272b3fd98c59331003d5b" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" >
+        </meta-data>
+
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
     </application>
 
     <uses-sdk android:minSdkVersion="8" />

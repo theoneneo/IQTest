@@ -3,27 +3,10 @@
  */
 package com.psychoanalysis.iqtest;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.Timer;
-import java.util.TimerTask;
-
 import techtheme.metal.core.TestSet;
 import techtheme.metal.db.BasedataElement;
 import techtheme.metal.db.DatabaseListener;
 import techtheme.metal.db.DatabaseType;
-
-import com.psychoanalysis.view.AboutHelpView;
-import com.psychoanalysis.view.BrowseSubjectView;
-import com.psychoanalysis.view.DrawReferView;
-import com.psychoanalysis.view.IQNumberView;
-import com.psychoanalysis.view.MainView;
-import com.psychoanalysis.view.MenuView;
-import com.psychoanalysis.view.PanelSwitcher;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -35,13 +18,21 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.os.Process;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
-import android.view.Window;
 import android.view.View.OnClickListener;
-import android.widget.Button;
+import android.view.Window;
+
+import com.psychoanalysis.view.AboutHelpView;
+import com.psychoanalysis.view.BrowseSubjectView;
+import com.psychoanalysis.view.DrawReferView;
+import com.psychoanalysis.view.IQNumberView;
+import com.psychoanalysis.view.MainView;
+import com.psychoanalysis.view.MenuView;
+import com.psychoanalysis.view.PanelSwitcher;
+import com.umeng.analytics.MobclickAgent;
+import com.umeng.update.UmengUpdateAgent;
 
 /**
  * @author Neo
@@ -85,7 +76,8 @@ public class MainActivity extends Activity implements OnClickListener,
 
 		ts = TestSet.getInstance();
 		ts.registerDBAbility(pda);
-
+		UmengUpdateAgent.update(this);
+		UmengUpdateAgent.setUpdateOnlyWifi(false);
 		app = IQTestApplication.getApplication(this);
 		app.setMainHandler(MainHandler);
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -107,17 +99,20 @@ public class MainActivity extends Activity implements OnClickListener,
 		return versionCode;
 	}
 
+	@Override
 	public void onResume() {
 		super.onResume();
 		if (!isPause) {
 			app.getAvaliableApps();
 		}
-
+		MobclickAgent.onResume(this);
 	}
 
+	@Override
 	public void onPause() {
 		super.onPause();
 		isPause = true;
+		MobclickAgent.onPause(this);
 	}
 
 	private void updateVersion() {
