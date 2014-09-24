@@ -94,7 +94,8 @@
 			android:layout_marginRight="10dip"
 			android:layout_alignParentLeft="true"		
 			android:background="@drawable/btn_menu"/>
-		<ImageButton android:id="@+id/btnScan" 
+		<ImageButton android:id="@+id/btnScan"
+		    android:visibility="invisible"
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content"
 			android:layout_alignParentBottom="true"

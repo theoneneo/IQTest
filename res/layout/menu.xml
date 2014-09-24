@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:id="@+id/menu_layout"
@@ -10,76 +10,15 @@
     	android:id="@+id/menu_btn"
         android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
+    	android:layout_centerHorizontal="true"
     	android:background="@drawable/btn_back"/>    
     <LinearLayout 
-    	android:layout_width="320dp" 
+    	android:layout_width="fill_parent" 
 		android:layout_height="fill_parent"
     	android:orientation="vertical"
     	android:gravity="center"
+    	android:layout_below="@+id/menu_btn"
     	android:background="@drawable/menu_bg">	
-		<RelativeLayout
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content">	
-			<LinearLayout android:id="@+id/btnSubmit" 
-				android:layout_width="80dip" 
-				android:layout_height="100dip"
-				android:clickable="true"
-				android:gravity="center_horizontal"
-				android:orientation="vertical">						  
-				<ImageView
-					android:background="@drawable/m_submit"
-					android:layout_width="80dip" 
-					android:layout_height="80dip"
-					android:duplicateParentState="true"/>	
-				<TextView
-					android:layout_width="wrap_content"
-					android:layout_height="20dip"
-					android:duplicateParentState="true"
-					android:textColor="@drawable/text_color"
-					android:text="@string/menu_1"/>		
-			</LinearLayout>
-			<LinearLayout android:id="@+id/btnRank" 
-				android:layout_toRightOf="@id/btnSubmit"
-				android:layout_width="80dip" 
-				android:layout_height="100dip"
-				android:clickable="true"
-				android:gravity="center_horizontal"
-				android:orientation="vertical">				
-				<ImageView			
-					android:background="@drawable/m_rank"
-					android:layout_width="80dip" 
-					android:layout_height="80dip"
-					android:duplicateParentState="true"/>
-				<TextView
-					android:layout_width="wrap_content"
-					android:layout_height="20dip"
-					android:duplicateParentState="true"
-					android:textColor="@drawable/text_color"
-					android:text="@string/menu_2"/>			
-			</LinearLayout>	
-			<LinearLayout android:id="@+id/btnHelp" 
-				android:layout_toRightOf="@id/btnRank"
-				android:layout_width="80dip" 
-				android:layout_height="100dip"
-				android:clickable="true"
-				android:gravity="center_horizontal"
-				android:orientation="vertical">				
-				<ImageView			
-					android:background="@drawable/m_help"
-					android:layout_width="80dip" 
-					android:layout_height="80dip"
-					android:duplicateParentState="true"/>
-				<TextView
-					android:layout_width="wrap_content"
-					android:layout_height="20dip"
-					android:duplicateParentState="true"
-					android:textColor="@drawable/text_color"
-					android:text="@string/menu_3"/>			
-			</LinearLayout>							
-		</RelativeLayout>
-		<View
-			android:layout_width="fill_parent"
-			android:layout_height="20dp"/>
 		<RelativeLayout
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
@@ -121,7 +60,7 @@
 					android:textColor="@drawable/text_color"
 					android:text="@string/menu_5"/>			
 			</LinearLayout>											
-			<LinearLayout android:id="@+id/btnExit" 
+			<LinearLayout android:id="@+id/btnHelp" 
 				android:layout_toRightOf="@id/btnReleated"
 				android:layout_width="80dip" 
 				android:layout_height="100dip"
@@ -129,7 +68,7 @@
 				android:gravity="center_horizontal"
 				android:orientation="vertical">				
 				<ImageView			
-					android:background="@drawable/m_exit"
+					android:background="@drawable/m_help"
 					android:layout_width="80dip" 
 					android:layout_height="80dip"
 					android:duplicateParentState="true"/>
@@ -138,8 +77,8 @@
 					android:layout_height="20dip"
 					android:duplicateParentState="true"
 					android:textColor="@drawable/text_color"
-					android:text="@string/menu_6"/>			
+					android:text="@string/menu_3"/>			
 			</LinearLayout>																
 		</RelativeLayout>	
 	</LinearLayout>
-</LinearLayout>
+</RelativeLayout>

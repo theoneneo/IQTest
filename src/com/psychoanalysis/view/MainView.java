@@ -207,7 +207,7 @@ public class MainView extends LinearLayout implements DatabaseListener{
 	}
 	
 	 /**
-     * 计时刷新逻辑，到了答题时间，自动引发提交动作。
+     * 锟斤拷时刷锟斤拷锟竭硷拷锟斤拷锟斤拷锟剿达拷锟斤拷时锟戒，锟皆讹拷锟斤拷锟结交锟斤拷锟斤拷锟斤拷
      */
 
     private void refresh()
@@ -266,7 +266,7 @@ public class MainView extends LinearLayout implements DatabaseListener{
 		if(isPause)
 		{
 			timeTicker.cancel();
-			//上蒙版，遮蔽题目
+			//锟斤拷锟缴版，锟节憋拷锟斤拷目
 		}
 		else 
 		{

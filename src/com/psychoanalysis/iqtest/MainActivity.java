@@ -157,8 +157,6 @@ public class MainActivity extends Activity implements OnClickListener,
 		ts.restart();
 		long preRestTime = ts.getRestTime();
 		mainview.saveRestTime(preRestTime);
-		Button btn_psy = (Button) findViewById(R.id.psy);
-		btn_psy.setOnClickListener(this);
 	}
 
 	public void onDestroy() {
@@ -193,20 +191,11 @@ public class MainActivity extends Activity implements OnClickListener,
 			referSubject(6);
 		} else if (v.getId() == R.id.btn8) {
 			referSubject(7);
-		} else if (v.getId() == R.id.submitScore) {
-		} else if (v.getId() == R.id.btnSubmit) {
-			mPanelSwitcher.outFromBottom(VIEW_ID_MENU);
-			currentViewIdx = VIEW_ID_REFER;
-			switchToLeft(VIEW_ID_REFER);
-			ts.submit();
-		} else if (v.getId() == R.id.btnScan) {
+		}else if (v.getId() == R.id.btnScan) {
 			browseview.mAdapter.UpdateView();
 			currentViewIdx = VIEW_ID_SCAN;
 			mPanelSwitcher.enterFromUp(VIEW_ID_SCAN);
-		} else if (v.getId() == R.id.btnRank) {
-			mPanelSwitcher.outFromBottom(VIEW_ID_MENU);
-			currentViewIdx = VIEW_ID_MAIN;
-		} else if (v.getId() == R.id.btnHelp) {
+		}else if (v.getId() == R.id.btnHelp) {
 			aboutview.makeScrollview();
 			aboutview.data_title.setText(R.string.help_title);
 			aboutview.data_info.setText(R.string.help_info);
@@ -225,11 +214,7 @@ public class MainActivity extends Activity implements OnClickListener,
 			mPanelSwitcher.outFromBottom(VIEW_ID_MENU);
 			currentViewIdx = VIEW_ID_IQ_NUMBER;
 			switchToLeft(VIEW_ID_IQ_NUMBER);
-		} else if ((v.getId() == R.id.btnExit) || (v.getId() == R.id.btnOut)) {
-			ts.savePageIndex();
-			finish();
-			Process.killProcess(Process.myPid());
-		} else if (v.getId() == R.id.btnMenu) {
+		}else if (v.getId() == R.id.btnMenu) {
 			currentViewIdx = VIEW_ID_MENU;
 			mPanelSwitcher.enterFromUp(VIEW_ID_MENU);
 		} else if ((v.getId() == R.id.btnDoubleStart)) {
@@ -238,8 +223,8 @@ public class MainActivity extends Activity implements OnClickListener,
 			return;
 		} else if ((v.getId() == R.id.over_btn) || (v.getId() == R.id.menu_btn)) {
 			mPanelSwitcher.outFromBottom(currentViewIdx);
-		} else if (v.getId() == R.id.psy) {
-			dialog();
+		} else if((v.getId()) == R.id.btnOut){
+			finish();
 		}
 	}
 
