@@ -87,17 +87,6 @@ public class MainActivity extends Activity implements OnClickListener,
 		init();
 	}
 
-	private int checkVersion() {
-		int versionCode = 1;
-		try {
-			versionCode = getPackageManager().getPackageInfo(
-					"com.psychoanalysis.iqtest", 0).versionCode;
-		} catch (NameNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return versionCode;
-	}
 
 	@Override
 	public void onResume() {
@@ -131,6 +120,7 @@ public class MainActivity extends Activity implements OnClickListener,
 		mPanelSwitcher.setViewInLayout(browseview, VIEW_ID_SCAN);
 
 		iqnumberview = new IQNumberView(this);
+		mPanelSwitcher.addView(iqnumberview);
 		mPanelSwitcher.setViewInLayout(iqnumberview, VIEW_ID_IQ_NUMBER);
 
 		aboutview = new AboutHelpView(this);
@@ -187,9 +177,9 @@ public class MainActivity extends Activity implements OnClickListener,
 		} else if (v.getId() == R.id.btn8) {
 			referSubject(7);
 		}else if (v.getId() == R.id.btnScan) {
-			browseview.mAdapter.UpdateView();
-			currentViewIdx = VIEW_ID_SCAN;
-			mPanelSwitcher.enterFromUp(VIEW_ID_SCAN);
+//			mPanelSwitcher.outFromBottom(VIEW_ID_MENU);
+			currentViewIdx = VIEW_ID_IQ_NUMBER;
+			switchToLeft(VIEW_ID_IQ_NUMBER);
 		}else if (v.getId() == R.id.btnHelp) {
 			aboutview.makeScrollview();
 			aboutview.data_title.setText(R.string.help_title);
@@ -205,7 +195,6 @@ public class MainActivity extends Activity implements OnClickListener,
 			currentViewIdx = VIEW_ID_ABOUT_HELP;
 			switchToLeft(VIEW_ID_ABOUT_HELP);
 		} else if (v.getId() == R.id.btnReleated) {
-			iqnumberview.setPageName();
 			mPanelSwitcher.outFromBottom(VIEW_ID_MENU);
 			currentViewIdx = VIEW_ID_IQ_NUMBER;
 			switchToLeft(VIEW_ID_IQ_NUMBER);
@@ -221,28 +210,6 @@ public class MainActivity extends Activity implements OnClickListener,
 		} else if((v.getId()) == R.id.btnOut){
 			finish();
 		}
-	}
-
-	private void dialog() {
-		Dialog unknowdialog = new AlertDialog.Builder(this).setTitle("推荐应用")
-				.setMessage("心理云").setCancelable(false)
-				.setPositiveButton("下载", new DialogInterface.OnClickListener() {
-					public void onClick(DialogInterface dialog, int which) {
-						download();
-					}
-				})
-				.setNegativeButton("取消", new DialogInterface.OnClickListener() {
-					public void onClick(DialogInterface dialog, int which) {
-					}
-				}).create();
-		unknowdialog.show();
-	}
-
-	private void download() {
-		String urlString = "http://bcs.duapp.com/psycloud/PsychologyCloud.apk?sign=MBO:710de0ba58eeb21ef0bbcd0d14fe5a40:%2F0Ff1jys5oc2x%2BNjkIRu6aERm6U%3D&response-content-disposition=attachment;filename*=utf8''PsychologyCloud.apk&response-cache-control=private";
-		Uri uri = Uri.parse(urlString);
-		Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-		startActivity(intent);
 	}
 
 	public boolean onKeyUp(int keyCode, KeyEvent event) {

@@ -120,7 +120,7 @@ public class MainView extends LinearLayout implements DatabaseListener{
     	
 //    	ImageButton btnStart = (ImageButton)view.findViewById(R.id.btnStart);
 //    	btnStart.setOnClickListener((OnClickListener)context);
-    	ImageButton btnSub = (ImageButton)view.findViewById(R.id.btnScan);
+    	Button btnSub = (Button)view.findViewById(R.id.btnScan);
     	btnSub.setOnClickListener((OnClickListener)context);
     	ImageButton btnmenu = (ImageButton)view.findViewById(R.id.btnMenu);
     	btnmenu.setOnClickListener((OnClickListener)context);
