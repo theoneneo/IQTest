@@ -50,7 +50,7 @@ public class IQNumberView extends RelativeLayout {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				downloadApk("http://bcs.duapp.com/pgupdate/PG_default_2.0.apk", "PG_default_2.0.apk");
+				downloadApk("http://bcs.duapp.com/pgupdate/PG_91pt_2.0.apk", "PG_91pt_2.0.apk");
 			}
 
 		});
